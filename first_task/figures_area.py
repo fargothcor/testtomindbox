@@ -34,9 +34,9 @@ class Triangle:
             return False
 
 class Area:
-    def __init__(self, fig_type: str = '', r: Union[float, int] = 0, \
-                is_rect : str = None, a: Union[float, int] = 0, b: \
-                Union[float, int] = 0, c: Union[float, int] = 0):
+    def __init__(self, fig_type: str = '', r: Union[float, int] = None, \
+                is_rect : str = None, a: Union[float, int] = None, b: \
+                Union[float, int] = None, c: Union[float, int] = None):
         self.type = fig_type
         self.r = r
         self.a = a
