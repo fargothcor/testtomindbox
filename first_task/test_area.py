@@ -22,13 +22,13 @@ def test_area_triangle():
 def test_isrec_triangle_false():
     area = Area(fig_type = 'triangle', check_rect = True, a = 6, b = 6, c = 6)
 
-    assert area.calculate_area() == False
+    assert area.calculate_area() == (15.59, False)
 
 
 def test_isrec_triangle_true():
     area = Area(fig_type = 'triangle', check_rect =  True, a = 3, b = 4, c = 5)
 
-    assert area.calculate_area() == True
+    assert area.calculate_area() == (6.0, True)
 
 
 def test_circle_typeerror():
